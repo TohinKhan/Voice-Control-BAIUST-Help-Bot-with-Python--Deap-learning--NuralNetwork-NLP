@@ -1,0 +1,349 @@
+{
+  "intents":[
+
+    {
+      "tag": "greeting",
+      "patterns": [ "hello","hi", "hey", "wake up","whats up","hai"
+      ],
+
+      "responses": [ "hello sir", "How are you sir.", "Always For You Sir", "hello", "Here's your Assistant."
+
+      ]
+
+    },
+    {
+      "tag": "bye",
+      "patterns": ["bye", "goodbye", "see you later", "sleep", "exit","tata"
+      ],
+      "responses": ["Bye", "I am Going", "Bye Sir", "Good Bye", "It Will Be Nice To Meet You Again.", "See You Later"
+
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": ["how are you", "how you", "are you fine?", "are you good", "are you well"
+
+      ],
+      "responses": ["Fine", "Perfect", "Coll", "Fine like You", "I'm Fine. What About You?"
+
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["your name", "what is your name?", "who are you", "what are you"
+
+      ],
+      "responses": ["BAIUST help assistant", "I am an A I", "I am a Bot"
+
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what is time", "time", "time samary", "tell me the time", "what's the time","how much time is?"
+
+      ],
+      "responses": ["time"
+
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": ["what is date", "date", "what's the date", "what is the date today?", "which the date is today"
+
+      ],
+      "responses": ["date"
+
+      ]
+    },
+    {
+      "tag": "day",
+      "patterns": ["what is the day", "day", "what's the day", "what is today?", "what's the day is today? ", "which the day is today"
+
+      ],
+      "responses": ["day"
+
+      ]
+    },
+    {
+      "tag": "cse_faculty",
+      "patterns": ["all faculty member of cse", "all faculty of cse", "show all faculty of cse", "all faculty of cs","faculty of cse","all faculty members of department of cse"
+
+      ],
+      "responses": ["Here is all faculty members of Department of Computer Science & Engineering."
+
+      ]
+    },
+    {
+      "tag": "triple_e_faculty",
+      "patterns": ["all faculty member of triple e", "all faculty of triple e", "show all faculty of triple e", "all faculty of triple e","faculty of triple e", "show all faculty of triple c", " all faculty of 333", " all faculty of triple eee", "all faculty members of department of triple e"
+
+      ],
+      "responses": ["Here is all faculty members of Department of Electric & Electronic Engineering."
+
+      ]
+    },
+    {
+      "tag": "ce_faculty",
+      "patterns": ["all faculty member of civil engineering", "all faculty of ce", "show all faculty of civil engineering", "all faculty of ce","faculty of civil engineering","all faculty members of department of civil engineering"
+
+      ],
+      "responses": ["Here is all faculty members of Department of Civil Engineering."
+
+      ]
+    },
+    {
+      "tag": "bba_faculty",
+      "patterns": ["all faculty member of business administration", "all faculty of bba","all faculty of dba", "show all faculty of business administration", "all faculty of business administration","faculty of bba","all faculty members of department of business administration"
+
+      ],
+      "responses": ["Here is all faculty members of Department of Business Administration."
+
+      ]
+    },
+    {
+      "tag": "english_faculty",
+      "patterns": ["all faculty member of english", "all faculty of english", "show all faculty of english", "faculty of english","all faculty members of department of english"
+
+      ],
+      "responses": ["Here is all faculty members of Department of English."
+
+      ]
+    },
+    {
+      "tag": "law_faculty",
+      "patterns": ["all faculty member of law", "all faculty of law", "show all faculty of law", "faculty of law","all faculty members of department of law"
+
+      ],
+      "responses": ["Here is all faculty members of Department of law."
+
+      ]
+    },
+    {
+      "tag": "portal",
+      "patterns": ["student portal", "portal", "student information","student nifo","show student portal of baiust","student portal of baiust"
+
+      ],
+      "responses": ["Here is the student portal of BAIUST. you can find all of your academic information by signing in"
+
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": ["location", "location of baiust", "exact location","exact location of baiust","correct location of baiust","what is the location of baiust","where is the location of baiust","where baiust located"
+
+      ],
+      "responses": ["Here is the exact location of BAIUST. Follow the map, and you will be the BAIUST campus"
+
+      ]
+    },
+    {
+      "tag": "ragister_officer",
+      "patterns": ["who is the register officer of baiust?", "register officer of baiust", "register officer","Colonel Suman Kumar Barua","Suman Kumar Barua","who is Colonel Suman Kumar Barua"
+
+      ],
+      "responses": ["Colonel Suman Kumar Barua (Retd.) is the Registrar officer of baiust. here is more information about him."
+
+      ]
+    },
+    {
+      "tag": "vc",
+      "patterns": ["who is the vc of baiust?","who is the vice chancellor of baiust?", "vice chancellor of baiust","vc of baiust", "vice chancellor","Salzar Hossain","who is Salzar Hossain","who is Brigadier General K M Salzar Hossain?"
+
+      ],
+      "responses": ["Professor Brigadier General K M Salzar Hossain, ndc, psc (Retd.) Vice Chancellor, BAIUST. here is more information about him."
+
+      ]
+    },
+    {
+      "tag": "eee_head",
+      "patterns": ["who is the department head of triple e?","who is the head of triple e?", "who is the department head of triple c?","who is the department head of electrical and electronics engineering?", "who is the department head of triple 333?", "head of triple 333","head of triple c","head of triple e", "head of electrical and electronics engineering","who is Shah Md. Salimullah","who is Salimullah?","Shah Md. Salimullah","Md. Salimullah","Salimullah","who is Salimullah"
+
+      ],
+      "responses": ["Shah Md. Salimullah Assistant Professor and head of the department of triple e. here is more information about him."
+
+      ]
+    },
+    {
+      "tag": "cse_head",
+      "patterns": ["who is the department head of cse?","who is the head of cse?", "who is the department head of computer science and engineering?","who is the department head of cs?", "department head of psc", "head of cse", "head of cs", "head of computer science and engineering","who is mohammad Asaduzzaman Khan" ,"mohammad Asaduzzaman Khan","who is Asaduzzaman Khan", "Asaduzzaman Khan"
+
+      ],
+      "responses": ["Mohammad Asaduzzaman Khan Associate Professor & head of the department of cse. Here is more information about him."
+
+      ]
+    },
+    {
+      "tag": "ce_head",
+      "patterns": ["who is the department head of civil engineering?", "who is the head of ce?","who is the department head of ce?","who is the department head of ce?", "department head of civil engineering", "head of civil engineering", "head of civil engineering", "head of ce"
+
+      ],
+      "responses": ["Professor Brigadier General K M Salzar Hossain, ndc, psc (Retd.). is the dean of civil engineering. Here is more information about him."
+
+      ]
+    },
+    {
+      "tag": "bba_head",
+      "patterns": ["who is the department head of business administration?", "who is the head of business administration?","who is the department head of bba?", "department head of business administration", "head of business administration", "head of dba", "head of bba","who is the department head of dba?"
+
+      ],
+      "responses": ["Dr. Fatema Johara, is an Associate Professor and Head of Department of Business Administration at baiust. Here is more information about her."
+
+      ]
+    },
+    {
+      "tag": "english_head",
+      "patterns": ["who is the department head of english?", "who is the head of english?", "department head of english", "head of english", "Salma Parvin Suma","who is Salma Parvin Suma","Salma Parvin"
+
+      ],
+      "responses": ["Salma Parvin Suma has been working as an Assistant Professor and Head of the Department of English at baiust."
+
+      ]
+    },
+    {
+      "tag": "law_head",
+      "patterns": ["who is the department head of law?", "who is the head of law?", "department head of law", "head of law", "Shakhawat Hossain Shamim","who is Shakhawat Hossain Shamim","Shakhawat Hossain","who is the head of department of low?"
+
+      ],
+      "responses": ["Shakhawat Hossain Shamim is the head of  the Department of law. here is more information about him."
+
+      ]
+    },
+    {
+      "tag": "cse",
+      "patterns": ["department of cse", "cse department", "tall me about cse department", "about cse", "department of cs","department of psc","about psc","about cs?","department of computer science and engineering"
+
+      ],
+      "responses": ["The Department of Computer Science & Engineering is the largest department of BAIUST, located in cmapus 1."
+
+      ]
+    },
+    {
+      "tag": "eee",
+      "patterns": ["department of triple e", "triple e department", "tall me about triple e department", "about triple e", "department of eee","department of triple c","about 333","about teiple c?"
+
+      ],
+      "responses": ["The Department of Electric & Electronic Engineering is the 2nd large department of BAIUST, located in campus 1."
+
+      ]
+    },
+    {
+      "tag": "ce",
+      "patterns": ["department of civil engineering", "civil engineering department", "tall me about civil engineering department", "about civil engineering", "department of ce", "about ce"
+
+      ],
+      "responses": ["The Department of Civil Engineering offers the very best civil engineering education, located in campus 2."
+
+      ]
+    },
+    {
+      "tag": "bba",
+      "patterns": ["department of business administration", "business administration department", "tall me about business administration department", "about business administration", "department of bba", "about bba", "department of dba"
+
+      ],
+      "responses": ["The Department of Business Administration is one of the pioneering departments at BAIUST, locates in campus 2."
+
+      ]
+    },
+    {
+      "tag": "english",
+      "patterns": ["department of english", "english department", "tall me about english department", "about english"
+
+      ],
+      "responses": ["The department of english is designed to provide students with a milieu in literature, skills required for effective communication, locates in campus 2."
+
+      ]
+    },
+    {
+      "tag": "law",
+      "patterns": ["department of law", "law department", "tall me about law department", "about law", "department low"
+
+      ],
+      "responses": ["The department of law is the newest department of BAIUST, locates in campus 2."
+
+      ]
+    },
+    {
+      "tag": "department",
+      "patterns": ["how many department are in baiust","number of department", "all department's", "number of departmets in baiust"
+
+      ],
+      "responses": ["There are 6 departments in BAIUST. Department of Computer Science & Engineering, Department of Electric & Electronic Engineering, Department of Civil Engineering, Department of Business Administration, Department of English, Department of law"
+
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["how to admit in baiust","admission process", "what is the admission process of baiust", "admission procedure"
+
+      ],
+      "responses": ["Here is the admission procedure of BAIUST."
+
+      ]
+    },
+    {
+      "tag": "website",
+      "patterns": ["baiust website", "website of baiust", "open the website of baiust","website"
+
+      ],
+      "responses": ["Opening Baiust Website."
+
+      ]
+    },
+    {
+      "tag": "facebook",
+      "patterns": ["baiust facebook page", "facebook page of baiust", "open the facebook page of baiust","facebook page"
+
+      ],
+      "responses": ["Opening The Facetook page of Baiust."
+
+      ]
+    },
+    {
+      "tag": "notice",
+      "patterns": ["all notice", "notice", "notice's","all notice of baiust"
+
+      ],
+      "responses": ["Opening Notice panel of BAIUST."
+
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": ["library", "baiust library", "open library","open baiust library"
+
+      ],
+      "responses": ["Here is the login page of baiust library. you can access the Books by signing in with your baiust ID and Password."
+
+      ]
+    },
+    {
+      "tag": "permanent_campus",
+      "patterns": ["baiust permanent campus", "permanent campus", "permanent campus of baiust","where is the permanent campus of baiust"
+
+      ],
+      "responses": ["The permanent campus is located in Kalakachua near Dhaka-Chittagong Highway, which is under construction."
+
+      ]
+    },
+    {
+      "tag": "baiust",
+      "patterns": ["tall me about baiust", "all me about bangladesh army international university", "what is baiust","bangladesh army international university","what is bangladesh army international university "
+
+      ],
+      "responses": ["Bangladesh Army International University of Science and Technology (BAIUST), a university affiliated with the Bangladesh Army, started its journey on 14 February 2015. Here is Baiust official website."
+
+      ]
+    },
+    {
+      "tag": "pleasure",
+      "patterns": ["thank's", "thank you", "nice work","good work","grate work","keep it up","you did well","thanks"
+
+      ],
+      "responses": ["My pleasure sir.", "Thanks sir.", "Most welcome sir."
+
+      ]
+    }
+  ]
+
+
+}
